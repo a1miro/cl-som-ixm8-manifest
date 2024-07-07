@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<include name="imx-manifest/imx-6.6.23-2.0.0.xml" />
+	<remove-project name="meta-qt6" />
 </manifest>
