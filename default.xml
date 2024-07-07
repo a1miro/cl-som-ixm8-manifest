@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+	<remote name="compulab" fetch="https://github.com/compulab-yokneam" />
+	<remote name="a1miro" fetch="git@github.com:a1miro" />
+
 	<include name="imx-manifest/imx-6.6.23-2.0.0.xml" />
-	<remove-project name="meta-qt6" />
+
+	<project name="meta-compulab" remote="compulab" path="sources/meta-compulab" revision="497179407e164e389693c66badef11ce211ccf14" upstream="honister" />
+	<project name="meta-compulab-bsp" remote="compulab" path="sources/meta-compulab-bsp" revision="cf109f6fccf427daaac46fc873659a4589d2528f" upstream="honister" />
+	<project name="meta-bsp-imx8mq" remote="a1miro" path="sources/meta-bsp-imx8mq" revision="scarthgap" upstream="scarthgap" />
 </manifest>
