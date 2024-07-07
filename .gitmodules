@@ -1,0 +1,4 @@
+[submodule "imx-manifest"]
+	path = imx-manifest
+	url = https://github.com/nxp-imx/imx-manifest
+	branch = imx-linux-scarthgap
