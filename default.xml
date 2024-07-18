@@ -8,8 +8,9 @@
 	<project name="meta-compulab" remote="compulab" path="sources/meta-compulab" revision="497179407e164e389693c66badef11ce211ccf14" upstream="honister" />
 	<project name="meta-compulab-bsp" remote="compulab" path="sources/meta-compulab-bsp" revision="cf109f6fccf427daaac46fc873659a4589d2528f" upstream="honister" />
 	-->
-	<project name="meta-bsp-imx8mq" remote="a1miro" path="sources/meta-bsp-imx8mq" revision="scarthgap" upstream="scarthgap" />
+	<project name="meta-bsp-imx8mq" remote="a1miro" path="sources/meta-bsp-imx8mq" revision="scarthgap" upstream="scarthgap">
+		<copyfile src="conf/templates/templateconf" dest=".templateconf" />
+	</project>
 	<!-- We need to get poky at the root folder -->
 	<project name="poky" remote="yp" path="." revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
-	<copyfile src="sources/meta-bsp-imx8mq/conf/templates/templateconf" dest="./.templateconf" />
 </manifest>
