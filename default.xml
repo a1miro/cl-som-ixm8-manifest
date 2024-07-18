@@ -10,6 +10,6 @@
 	-->
 	<project name="meta-bsp-imx8mq" remote="a1miro" path="sources/meta-bsp-imx8mq" revision="scarthgap" upstream="scarthgap" />
 	<!-- We need to get poky at the root folder -->
-	<extend-project name="poky" path="." />
-	<copyfile src="scripts/templateconf" dst=".templateconf" />
+	<project name="poky" remote="yp" path="." revision="02eacd385eca7aa9cf25aaaa61427aa9c126e0bc" upstream="scarthgap"/>
+	<copyfile src="sources/meta-bsp-imx8mq/conf/templates/templateconf" dst=".templateconf" />
 </manifest>
