@@ -11,6 +11,6 @@
 	<project name="meta-bsp-imx8mq" remote="a1miro" path="sources/meta-bsp-imx8mq" revision="a1miro/scarthgap" upstream="a1miro/scarthgap">
 		<copyfile src="conf/templates/templateconf" dest="sources/poky/.templateconf" />
 	</project>
-	<project name="uboot-imx" remote="a1miro" path="workspace/uboot-imx" revision="a1miro/scarthgap/u-boot-imx" upstream="a1miro/scarthgap">
-	<project name="linux-imx" remote="a1miro" path="workspace/linux-imx" revision="a1miro/scarthgap/linux-imx" upstream="a1miro/scarthgap">
+	<project name="uboot-imx" remote="a1miro" path="workspace/uboot-imx" revision="a1miro/lf_v2024.4" upstream="a1miro/lf_v2024.4" />
+	<project name="linux-imx" remote="a1miro" path="workspace/linux-imx" revision="a1miro/lf-6.6.y" upstream="a1miro/lf-6.6.y" />
 </manifest>
